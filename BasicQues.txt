@@ -1,0 +1,10 @@
+Which of the following varibale names is correct?
+A character type variable allocates space in the memory of the computer of-
+Which of the following options may contain constant data?
+Which string will print a backslash?
+int a=5; ++a;a--; So a=?
+7*3/7+2=?
+int a=5; float b=3; Which of the following will give the correct answer?
+char x='a';printf("%d",x);This code snippet will print:
+char c='c';printf("%c",c+1);This code segment will print:
+long double x=3;This variable allocates memory of:

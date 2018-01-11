@@ -1,0 +1,50 @@
+learning.isFun
+learning_isFun
+learning-isFun
+learning^isFun
+2
+2 bytes
+4 bytes
+1 byte
+8 bytes
+3
+PI*3.1416*3
+2*3*7
+34/7
+78*5+9
+1
+"\I love C language\"
+"I love \C language"
+"\\I love C language"
+"I love C\ language"
+3
+5
+6
+4
+7
+2
+Undefined
+2
+0
+5
+4
+Printf("%d",a/b);
+printf("%f",a/b);
+printf("%c",a/b);
+printf("%s",a/b);
+2
+97
+a
+A
+x
+1
+c+1
+d
+100
+Error
+b
+3 bytes
+10 bytes
+8 bytes
+4 bytes
+2

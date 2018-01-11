@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.control.PasswordField?>
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="427.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerSignUp">
+   <children>
+      <ImageView fitHeight="466.0" fitWidth="646.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@coding_illustration_smaller1-608x400.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="201.0" nodeOrientation="LEFT_TO_RIGHT" text="Sign Up" textFill="#22065c">
+         <font>
+            <Font name="Chiller" size="96.0" />
+         </font>
+      </Label>
+      <TextField  fx:id="UserName" alignment="CENTER" layoutX="234.0" layoutY="143.0" promptText="Username" />
+      <PasswordField fx:id="PassWord" alignment="CENTER" layoutX="234.0" layoutY="195.0" promptText="Password" />
+      <PasswordField fx:id="Confirm" alignment="CENTER" layoutX="234.0" layoutY="243.0" promptText="Confirm Password" />
+      <Button  layoutX="241.0" layoutY="306.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" style="-fx-background-color: #df1f65;" text="Create Account" textFill="WHITE" onAction="#SignAction" >
+         <font>
+            <Font name="Chiller" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButton" layoutX="14.0" layoutY="365.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" style="-fx-background-color: #df1f65;" text="Back" textFill="WHITE" onAction="#BackAction">
+         <font>
+            <Font name="Chiller" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

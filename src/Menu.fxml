@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenuController">
+   <children>
+      <ImageView fitHeight="386.0" fitWidth="600.0" layoutX="-2.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@menu.jpg" />
+         </image>
+      </ImageView>
+      <Button alignment="CENTER" layoutX="25.0" layoutY="317.0" mnemonicParsing="false" style="-fx-background-color: #df145e;" text="Log Out" textFill="#fcfcfc">
+         <font>
+            <Font name="Chiller" size="24.0" />
+         </font>
+      </Button>
+      <Button  fx:id="basic" alignment="CENTER" layoutX="255.0" layoutY="23.0" mnemonicParsing="false" style="-fx-background-color: #a21616;" text="Basic" textFill="#efe4e4" onAction="#basicAction">
+         <font>
+            <Font name="Chiller" size="22.0"  />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="259.0" layoutY="85.0" mnemonicParsing="false" style="-fx-background-color: #e44106;" text="Loop" textFill="#efe8e6">
+         <font>
+            <Font name="Chiller" size="22.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="255.0" layoutY="152.0" mnemonicParsing="false" style="-fx-background-color: #f2f218;" text="Array" textFill="#fafaf6">
+         <font>
+            <Font name="Chiller" size="22.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="255.0" layoutY="212.0" mnemonicParsing="false" style="-fx-background-color: #9ef21f;" text="String" textFill="#f9faf7">
+         <font>
+            <Font name="Chiller" size="22.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="234.0" layoutY="276.0" mnemonicParsing="false" style="-fx-background-color: #51d2d4;" text="I/O System" textFill="#fafafa">
+         <font>
+            <Font name="Chiller" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
